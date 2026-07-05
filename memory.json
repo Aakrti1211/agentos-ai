@@ -1,0 +1,585 @@
+[
+  {
+    "timestamp": "17:17:53",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:17:53",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:17:53",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "LLM client is unavailable. Using deterministic fallback.",
+        "summary_output": "LLM client is unavailable. Using deterministic fallback.",
+        "report_output": "LLM client is unavailable. Using deterministic fallback."
+      }
+    }
+  },
+  {
+    "timestamp": "17:17:53",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:17:53",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:17:53",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:18:16",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:18:16",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:18:16",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "LLM client is unavailable. Using deterministic fallback.",
+        "summary_output": "LLM client is unavailable. Using deterministic fallback.",
+        "report_output": "LLM client is unavailable. Using deterministic fallback."
+      }
+    }
+  },
+  {
+    "timestamp": "17:18:16",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:18:16",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:18:16",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:21:41",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:21:41",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:21:42",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "Fallback response: HTTP Error 429: Too Many Requests",
+        "summary_output": "Fallback response: HTTP Error 429: Too Many Requests",
+        "report_output": "Fallback response: HTTP Error 429: Too Many Requests"
+      }
+    }
+  },
+  {
+    "timestamp": "17:21:43",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:21:43",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:21:43",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:23:26",
+    "stage": "test",
+    "message": "hello",
+    "data": {
+      "x": 1
+    }
+  },
+  {
+    "timestamp": "17:23:42",
+    "stage": "test",
+    "message": "hello",
+    "data": {
+      "x": 1
+    }
+  },
+  {
+    "timestamp": "17:24:09",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:24:09",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:24:15",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "Fallback response: HTTP Error 429: Too Many Requests",
+        "summary_output": "Fallback response: HTTP Error 429: Too Many Requests",
+        "report_output": "Fallback response: HTTP Error 429: Too Many Requests"
+      }
+    }
+  },
+  {
+    "timestamp": "17:24:22",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:24:28",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:24:28",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:25:08",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:25:08",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:25:14",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "Research findings from available tools: Calculator input was invalid.",
+        "summary_output": "Fallback response: HTTP Error 429: Too Many Requests",
+        "report_output": "Task: Research AI trends and summarize them. Research highlights: Research findings from available tools: Calculator input was invalid. Summary: Fallback response: HTTP Error 429: Too Many Requests"
+      }
+    }
+  },
+  {
+    "timestamp": "17:25:20",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "Research findings from available tools: Calculator input was invalid."
+    }
+  },
+  {
+    "timestamp": "17:25:26",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "Task: Research AI trends and summarize them. Research highlights: Research findings from available tools: Calculator input was invalid. Summary: Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:25:26",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "Task: Research AI trends and summarize them. Research highlights: Research findings from available tools: Calculator input was invalid. Summary: Fallback response: HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "timestamp": "17:26:48",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:26:48",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:26:48",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "LLM client is unavailable. Using deterministic fallback.",
+        "summary_output": "LLM client is unavailable. Using deterministic fallback.",
+        "report_output": "LLM client is unavailable. Using deterministic fallback."
+      }
+    }
+  },
+  {
+    "timestamp": "17:26:48",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:26:48",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:26:48",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:27:02",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:27:02",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:27:02",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "LLM client is unavailable. Using deterministic fallback.",
+        "summary_output": "LLM client is unavailable. Using deterministic fallback.",
+        "report_output": "LLM client is unavailable. Using deterministic fallback."
+      }
+    }
+  },
+  {
+    "timestamp": "17:27:02",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:27:02",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:27:02",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:28:17",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:28:17",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:28:17",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "LLM client is unavailable. Using deterministic fallback.",
+        "summary_output": "LLM client is unavailable. Using deterministic fallback.",
+        "report_output": "LLM client is unavailable. Using deterministic fallback."
+      }
+    }
+  },
+  {
+    "timestamp": "17:28:17",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:28:17",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:28:17",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:28:40",
+    "stage": "app",
+    "message": "Task received",
+    "data": {
+      "task": "Research AI trends and summarize them."
+    }
+  },
+  {
+    "timestamp": "17:28:40",
+    "stage": "planner",
+    "message": "Plan created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "steps": [
+        "Research",
+        "Summarize",
+        "Generate report"
+      ]
+    }
+  },
+  {
+    "timestamp": "17:28:40",
+    "stage": "ResearchAgent",
+    "message": "research completed",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "tool": "calculator",
+      "context": {
+        "task": "Research AI trends and summarize them.",
+        "research_output": "LLM client is unavailable. Using deterministic fallback.",
+        "summary_output": "LLM client is unavailable. Using deterministic fallback.",
+        "report_output": "LLM client is unavailable. Using deterministic fallback."
+      }
+    }
+  },
+  {
+    "timestamp": "17:28:40",
+    "stage": "SummarizerAgent",
+    "message": "summary created",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "prior": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:28:40",
+    "stage": "ReportAgent",
+    "message": "report generated",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "report": "LLM client is unavailable. Using deterministic fallback."
+    }
+  },
+  {
+    "timestamp": "17:28:40",
+    "stage": "memory",
+    "message": "stored task summary",
+    "data": {
+      "task": "Research AI trends and summarize them.",
+      "summary": "LLM client is unavailable. Using deterministic fallback."
+    }
+  }
+]
